@@ -91,7 +91,7 @@ static void usage(char *myName)
 int main(int argc, char **argv)
 {
 usbDevice_t *dev;
-char        buffer[129];    /* room for dummy report ID */
+char        buffer[2];    /* room for dummy report ID */
 int         err;
 
     if(argc < 2){
